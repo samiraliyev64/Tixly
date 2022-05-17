@@ -253,8 +253,8 @@ nav ul li a {
         display: none;
     }
 
-    .first {
-        margin-left: 4%;
+    #shopping-bag {
+        margin-left: -250px;
     }
 
     .first a {
@@ -266,11 +266,11 @@ nav ul li a {
     }
 
     nav {
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     .text {
-        margin-left: 7%;
+        margin-left: 10%;
     }
 
     .text p {
@@ -302,5 +302,20 @@ nav ul li a {
 
     #story img {
         width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:500px) {
+    .text {
+        margin-left: 15%;
+    }
+
+    .explore-title {
+        margin-left: -150px;
+    }
+
+    .explore-title h1 {
+        margin-left: 40px;
+        font-size: 34px;
     }
 }
